@@ -18,7 +18,9 @@ python manage.py migrate
 ```bash
 python manage.py runserver
 ```
-Access endpoint at http://localhost:8000/polls/
+Public endpoint is at http://localhost:8000/polls/
+
+Admin endpoint is at http://127.0.0.1:8000/admin/, `user: admin`, `password: qazwsxedc`
 
 ## Testing
 
