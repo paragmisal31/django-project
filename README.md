@@ -1,28 +1,28 @@
 # django-project
 
-### Setup
+## Setup
 
-Install Django:
+### Install Django:
 ```bash
 pip install Django
 ```
 
-Perform database migration:
+### Perform database migration:
 ```bash
 python manage.py check
 python manage.py migrate
 ```
 
-### Run Development Server
+## Run Development Server
 
 ```bash
 python manage.py runserver
 ```
 Access endpoint at http://localhost:8000/polls/
 
-### Testing
+## Testing
 
-Run tests:
+### Run tests:
 ```bash
 python manage.py test
 ```
@@ -38,13 +38,13 @@ OK
 Destroying test database for alias 'default'...
 ```
 
-Run tests with coverage:
+### Run tests with coverage:
 ```bash
 pip install coverage
 coverage run --source='.' manage.py test
 ```
 
-Check coverage report:
+### Check coverage report:
 ```bash
 coverage report
 ```
